@@ -6,8 +6,6 @@ const AvailablePlant = props => {
 	let { plant, returnPlant, allocatePlant } = props;
 	let { id, name, color, image, numAvailable } = plant;
 
-    console.log(image);
-
 	return (
 		<div
 			className={`card available-plant-card ${
