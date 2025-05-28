@@ -27,7 +27,10 @@ function App() {
 
 		alphabetize(plantData, 'name');
 
-		setAllPlants(plantData);
+        // Delayed only to demonstrate spinner
+        setTimeout(() => {
+            setAllPlants(plantData);
+        }, 1000)
 	};
 
 	// Runs once when component first loads
